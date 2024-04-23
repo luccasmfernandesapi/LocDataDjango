@@ -1,0 +1,203 @@
+{% include "consultacpf.html" %}
+
+<body>
+    <h1>DADOS CADASTRAIS</h1>
+    Contatos Id: {{ dados_basicos.contatos_id }}<br>
+    CPF: {{ dados_basicos.cpf }}<br>
+    Nome: {{ dados_basicos.nome }}<br>
+    Data Nascimento: {{ dados_basicos.nasc|date:"d/m/Y" }}<br>
+    Situação Cadastral: {{ dados_basicos.get_cd_sit_cad_display }}<br>
+    Data Situação Cadastro: {{ dados_basicos.dt_sit_cad|date:"d/m/Y" }}<br>
+    Data Obito:
+    {% if dados_basicos.dt_ob|date:"d/m/Y" == '01/01/1900'%}
+    {%else%}
+    {{dados_basicos.dt_ob|date:"d/m/Y" }}
+    {% endif%}
+    <br>
+    Idade: {{ idade }}<br>
+    Sexo: {{ dados_basicos.sexo}}<br>
+    Renda: {{ dados_basicos.renda }}<br>
+    Ocupação: {{dados_basicos.cbo}}<br>
+    Escolaridade: {{dados.esco.escolaridade}} <br>
+    Estado Civil: {{ dados_basicos.get_estciv_display }}<br>
+    Naturalidade: {{ dados.nat.naturalidade_cidade }}<br>
+    Nome Mãe: {{ dados_basicos.nome_mae }}<br>
+    Nome Pai: {{ dados_basicos.nome_pai }}<br>
+
+    </br>
+    <h1>DOCUMENTOS</h1>
+    Titulo Eleitor: {{ dados_basicos.titulo_eleitor }} <br>
+    RG:{{ dados_basicos.rg }} <br>
+    RG Data Emissão: {{ dados_basicos.rg_data_emissao }} <br>
+    Cns: {{ dados.cns.cns }} <br>
+    Pis: {{ dados.pis.pis }}<br>
+    Nis: {{ dados.nis.nis }}<br>
+    Numero CTPS: {{ dados.ctps.numero_ctps }}<br>
+    Serie: {{ dados.ctps.serie_ctps }}<br>
+    Data Emissao: {{ dados.ctps.dt_emissao_ctps }}<br>
+    UF: {{ dados.ctps.uf_emissao_ctps }}<br>
+    </br>
+
+    <h1>CNH</h1>
+    CNH: {{ dados_basicos.cnh }} <br>
+    Data Primeira Habilitação: {{ dados_basicos.data_habilitacao }} <br>
+    Cód. Segurança: {{ dados_basicos.cod_seguranca }} <br>
+    Formulário CNH: {{ dados_basicos.formulario_cnh }} <br>
+    Formulário RENACH: {{ dados_basicos.formulario_renach }} <br>
+    Número PGU: {{ dados_basicos.numero_pgu }} <br>
+    Categorial Atual: {{ dados_basicos.categorial_atual }} <br>
+    Situação CNH: {{ dados_basicos.situacao_cnh }} <br>
+    Data Última Emissão: {{ dados_basicos.dt_ultima_emissao }} <br>
+    Data Validade: {{ dados_basicos.data_validade }} <br>
+    Local Emissão: {{ dados_basicos.local_emissao }} <br>
+
+    </br>
+    <h1>Relacionamento</h1>
+    <table>
+        <tr>
+            <th>CPF</th>
+            <th>Nome</th>
+            <th>Data Nascimento</th>
+            <th>Vinculo</th>
+        </tr>
+        {% for relacs in dados.relac %}
+        <tr>
+            <td>{{ relacs.cpf_relacionamento }}</td>
+            <td>{{ relacs.nome }}</td>
+            <td>{{ relacs.nasc|date:"d/m/Y" }}</td>
+            <td>{{ relacs.vinculo }}</td>
+            {% endfor %}
+        </tr>
+    </table>
+    </br>
+
+    <h1>Endereço</h1>
+    <table>
+        <tr>
+            <th>CEP</th>
+            <th>Endereço</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+            <th>UF</th>
+        </tr>
+        {% for end in dados.end %}
+        <tr>
+            
+            <td>{{ end.cep }}</td>
+            <td>{{ end.endereco }}</td>
+            <td>{{ end.bairro }}</td>
+            <td>{{ end.cidade }}</td>
+            <td>{{ end.uf }}</td>
+            
+        </tr>
+        {% endfor %}
+    </table>
+    </br>
+    <h1>Sócios Empresas</h1>
+    <table>
+        <th>Cnpj</th>
+        <th>Razão Social</th>
+        <th>Nome Fantasia</th>
+        <th>Participação Sociedade</th>
+        <th>Cnae</th>
+        </tr>
+        
+        <tr>
+            {% for empresa in dados.empresas %}
+            <td>{{ empresa.cnpj }}</td>
+            <td>{{ empresa.razao }}</td>
+            <td>{{ empresa.nome}}</td>
+            <td>{{ empresa.participacao }}</td>
+            <td>{{ empresa.cnae }}</td>
+            {% endfor %}    
+        </tr>
+        
+    </table>
+</br>
+<h1>Telefone</h1>
+<table>
+    <tr>
+        <tr>DDD</tr>
+        <tr>Telefone</tr>
+    </tr>
+    {% for telefone in dados.telefone %}
+    <tr>
+        <td>{{ telefone.ddd }}</td>
+        <td>{{ telefone.telefone }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+    <h1>Email</h1>
+    <table>
+        <tr>
+            <th>
+                Email
+            </th>
+
+        </tr>
+        {% for email in dados.email %}
+        <tr>
+            <td>{{ email.email }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</br>
+<h1>Empregos</h1>
+<table>
+    <tr>
+        <th>Razão Social</th>
+        <th>Tipo Doc</th>
+        <th>Doc Empresa</th>
+        <th>Salario</th>
+        <th>Cargo</th>
+    </tr>
+    {% for emprego in dados.emprego %}
+    <tr>
+        <td>{{ emprego.razao_social }}</td>
+        <td>{{ emprego.tipo }}</td>
+        <td>{{ emprego.doc }}</td>
+        <td>{{ emprego.remuneracao }}</td>
+        <td>{{ emprego.cbo }}</td>
+    </tr>
+    {% endfor %}
+
+
+</table>
+
+</br>
+<h1>Veiculos</h1>
+<table>
+    <tr>
+        <th>Placa</th>
+        <th>Renavam</th>
+        <th>Marca</th>
+        <th>Ano Fabricação</th>
+        <th>Endereço</th>
+        <th>Bairro</th>
+        <th>Cidade</th>
+        <th>Estado</th>
+        <th>Cep</th>
+
+    </tr>
+    {% for veiculo in dados.veiculos %}
+    <tr>
+        <td>{{ veiculo.placa }}</td>
+        <td>{{ veiculo.renavan }}</td>
+        <td>{{ veiculo.marca }}</td>
+        <td>{{ veiculo.anofab }}</td>
+        <td>{{ veiculo.end }}, {{ veiculo.num }} {{ veiculo.compl }}</td>
+        <td>{{ veiculo.bairro }}</td>
+        <td>{{ veiculo.cidade }}</td>
+        <td>{{ veiculo.estado }}</td>
+        <td>{{ veiculo.cep }}</td>
+
+    </tr>
+    {% endfor %}
+
+
+</table>
+
+</body>
+
+</html>
