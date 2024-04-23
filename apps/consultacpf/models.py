@@ -433,8 +433,8 @@ class Endereco(models.Model):
     historico_enderecos_id = models.BigIntegerField(
         db_column='HISTORICO_ENDERECOS_ID')
     # Field name made lowercase.
-    contatos_id = models.BigIntegerField(
-        db_column='CONTATOS_ID', primary_key=True)
+    contatos_id = models.OneToOneField(PessoaFisica, related_name='enderecos',
+                                       db_column='CONTATOS_ID', primary_key=True, on_delete=models.PROTECT, to_field='contatos_id')
     # Field name made lowercase.
     logr_tipo = models.CharField(
         db_column='LOGR_TIPO', max_length=10, blank=True, null=True)

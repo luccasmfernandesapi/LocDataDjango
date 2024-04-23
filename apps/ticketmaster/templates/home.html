@@ -16,10 +16,35 @@
 
 <body>
     <nav>
-        teste
+        Bem Vindo, {{ user.name }}
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" style="width:50px" class="btn btn-primary btn-user btn-block">
+                <span class="text">Sair</span>
+            </button>
+        </form>
     </nav>
-    <div name="pesquisa">
-        <input type="text" class="form control" placeholder="CPF" aria-label="CPF">
+
+
+    <div class="pesquisacontainer">
+        <div class="container">
+            <form method="GET" action=" {% url 'hometm' %} " class="search-form">
+                <input type="search" name="cpf" id="cpf" class=".search-input" value="{{ request.GET.cpf }}">
+                <label for="status">Status:</label>
+
+                <select name="status" id="status">
+                    <option value="" selected>Selecione o Status</option>
+                    <option value="Urgente">Urgente</option>
+                    <option value="Pendente">Pendente</option>
+                    <option value="Prioridade">Prioridade</option>
+                    <option value="Confirmado">Confirmado</option>
+                    <option value="Sem Contato">Sem Contato</option>
+                    <option value="Fraude">Fraude</option>
+                    <option value="Sem Contato/Suspeito">Sem Contato/Suspeito</option>
+                </select>
+                <button type="submit" class=".searchbutton">Pesquisa</button>
+            </form>
+        </div>
     </div>
 
     <main>
@@ -27,49 +52,70 @@
 
             <div class="flex-container header">
                 <div class="flex-item">ID</div>
-                <div class="flex-item">CPF</div>
                 <div class="flex-item">Status</div>
+                <div class="flex-item">CPF</div>
                 <div class="flex-item">Nome</div>
                 <div class="flex-item">Status Trx</div>
+                <div class="flex-item">Data Trx</div>
                 <div class="flex-item">Data Voo</div>
+                <div class="flex-item">Trecho</div>
                 <div class="flex-item"></div>
-            
+
             </div>
             {% for trx in transacoes %}
             <div class="flex-container">
                 <div class="flex-item">{{ trx.id }}</div>
-                <div class="flex-item">{{ trx.status_transacao.frequent_flyer_number }}</div>
                 <div class="flex-item">{{ trx.status_transacao.status }}</div>
+                <div class="flex-item">{{ trx.status_transacao.frequent_flyer_number }}</div>
                 <div class="flex-item">{{ trx.frequent_flyer_number.nome }}</div>
                 <div class="flex-item">{{ trx.active_decision }}</div>
+                <div class="flex-item">{{ trx.transactiondate|date:"d/m/Y H:m" }}</div>
                 <div class="flex-item">{{ trx.departuredatetime|date:"d/m/Y H:m" }}</div>
+                <div class="flex-item">{{ trx.completeroute }}</div>
                 <div class="flex-item"><button type="button" class="btn btn-light show-details-btn"
                         data-trx-id="{{ trx.id }}">Detalhe</button></div>
-            </div>
+                        
+                    </div>
+                    
+                    
+            
         </div>
-
-            <div class="flex-container details" id="details-{{ trx.id }}" style="display: none;">
-                <!-- Adicione os detalhes da transação aqui. Exemplo: -->
-                Nome Passageiro: {{ trx.nome_passageiro_1 }}
-                Sobrenome Passageiro: {{ trx.sobrenome_passageiro_1 }}
+        
+        <div class="flex-container details" id="details-{{ trx.id }}" style="display: none;">
+            
+            <div>
+                <h1>Dados Trx</h1>
+                <p>Nome Passageiro: {{ trx.nome_passageiro_1 }}</p>
+                <p>Sobrenome Passageiro: {{ trx.sobrenome_passageiro_1 }}</p>
+                <p>Email: {{ trx.billing_email }}</p>
+                <p>Telefone: {{ trx.billing_phone }}</p>
+                <p>CEP: {{ trx.billing_postalcode }}</p>
+                
+                <h1>Dados Base</h1>
+                {% for trx in transacoes %}
+                Endereço: {{ trx.frequent_flyer_number.enderecos.endereco }}
+                Cidade: {{ trx.frequent_flyer_number.cidade }}
+                {% endfor %}
             </div>
-            {% endfor %}
+            
+        </div>
+        {% endfor %}
 
-            {% block content %}
-            <div name="paginacao">
-                <nav aria-label="Navegação de página">
-                    <ul class="pagination justify-content-center">
-                        {% include "partials/paginacao.html" %}
-                    </ul>
-                </nav>
-            </div>
-            {% endblock %}
+        {% block content %}
+        <div name="paginacao">
+            <nav aria-label="Navegação de página">
+                <ul class="pagination justify-content-center">
+                    {% include "partials/paginacao.html" %}
+                </ul>
+            </nav>
+        </div>
+        {% endblock %}
 
-
+       
         </div>
     </main>
     <footer>
-        <!-- place footer here -->
+        
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

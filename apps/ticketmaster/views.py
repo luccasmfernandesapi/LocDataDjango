@@ -1,23 +1,32 @@
-from datetime import datetime
-import pytz
+
 from django.shortcuts import render
 from ticketmaster.models import TmAereoStatus, TmAereoTrx
 from django.core.paginator import Paginator
 
 # Create your views here.
 
-# Definindo o fuso horário para 'America/Sao_Paulo'
-tz = pytz.timezone('America/Sao_Paulo')
-
 
 def home(request):
-    data_inicio = tz.localize(datetime(2024, 4, 1))
 
-    transacoes = TmAereoTrx.objects.filter(transactiondate__gt=data_inicio).select_related(
-        "frequent_flyer_number", "status_transacao").order_by('transactiondate')
+    cpf = request.GET.get('cpf', '')
+    status = request.GET.get('status', '')
+
+    transacoes = TmAereoTrx.objects.prefetch_related(
+        "status_transacao", "frequent_flyer_number__enderecos").order_by('transactiondate')
+
+    if cpf:
+        transacoes = transacoes.filter(
+            status_transacao__frequent_flyer_number__icontains=cpf)
+
+    if status:
+        transacoes = transacoes.filter(status_transacao__status=status)
 
     current_page = request.GET.get('page', 1)
     paginator = Paginator(transacoes, 10)
     page_obj = paginator.get_page(current_page)
 
-    return render(request, "home.html", {'transacoes': page_obj})
+    return render(request, "home.html", {'transacoes': page_obj, 'cpf': cpf, 'status': status, 'user': request.user})
+
+
+def PegarEndereco():
+    ...
