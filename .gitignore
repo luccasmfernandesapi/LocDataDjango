@@ -79,11 +79,14 @@ celerybeat-schedule.*
 .envloc
 .env
 .venv
+envloc
+envloc/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
 
 # mkdocs documentation
 /site
