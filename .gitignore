@@ -134,3 +134,7 @@ db copy.sqlite3
 static/
 apps/consultacpf/static
 apps/ticketmaster/static
+
+
+#teste
+apps
