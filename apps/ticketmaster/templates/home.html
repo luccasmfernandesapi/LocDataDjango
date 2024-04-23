@@ -15,9 +15,13 @@
 </head>
 
 <body>
-    <header>
+    <nav>
         teste
-    </header>
+    </nav>
+    <div name="pesquisa">
+        <input type="text" class="form control" placeholder="CPF" aria-label="CPF">
+    </div>
+
     <main>
         <div name="trx">
 
@@ -38,7 +42,7 @@
                 <div class="flex-item">{{ trx.status_transacao.status }}</div>
                 <div class="flex-item">{{ trx.frequent_flyer_number.nome }}</div>
                 <div class="flex-item">{{ trx.active_decision }}</div>
-                <div class="flex-item">{{ trx.departuredatetime }}</div>
+                <div class="flex-item">{{ trx.departuredatetime|date:"d/m/Y H:m" }}</div>
                 <div class="flex-item"><button type="button" class="btn btn-light show-details-btn"
                         data-trx-id="{{ trx.id }}">Detalhe</button></div>
             </div>

@@ -19134,3 +19134,760 @@ File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\graph.py fir
 File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1713184041.3940096
 File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1713184044.2531083
 File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1713184044.609888
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\LocDataDjango\apps\ticketmaster\templates with glob **/*.
+Watching dir C:\LocDataDjango\apps\consultacpf\templates with glob **/*.
+Watching dir C:\LocDataDjango\templates with glob **/*.
+Watching dir C:\LocDataDjango\locale with glob **/*.mo.
+Watching dir c:\LocDataDjango\envloc\Lib\site-packages\widget_tweaks\locale with glob **/*.mo.
+Watching dir C:\LocDataDjango\apps\consultacpf\locale with glob **/*.mo.
+Watching dir C:\LocDataDjango\apps\usuarios\locale with glob **/*.mo.
+Watching dir C:\LocDataDjango\apps\ticketmaster\locale with glob **/*.mo.
+(0.000) SELECT CAST(SERVERPROPERTY('ProductVersion') AS varchar); args=None; alias=default
+(0.000) SELECT SYSDATETIME(); args=None; alias=default
+(0.016) SELECT
+                    TABLE_NAME,
+                    TABLE_TYPE,
+                    CAST(ep.value AS VARCHAR) AS COMMENT
+                FROM INFORMATION_SCHEMA.TABLES i
+                LEFT JOIN sys.tables t ON t.name = i.TABLE_NAME
+                LEFT JOIN sys.extended_properties ep ON t.object_id = ep.major_id
+                AND ((ep.name = 'MS_DESCRIPTION' AND ep.minor_id = 0) OR ep.value IS NULL)
+                AND i.TABLE_SCHEMA = SCHEMA_NAME(); args=None; alias=default
+(0.000) SELECT [django_migrations].[id], [django_migrations].[app], [django_migrations].[name], [django_migrations].[applied] FROM [django_migrations]; args=(); alias=default
+File C:\LocDataDjango\apps\ticketmaster\models.py first seen with mtime 1713810224.01733
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_monkey.py first seen with mtime 1712578241.5733442
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\signing.py first seen with mtime 1713184045.0476165
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1713184040.3751123
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\timeouts.py first seen with mtime 1701790967.1008732
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1713184046.1539865
+File C:\LocDataDjango\envloc\Lib\site-packages\widget_tweaks\__init__.py first seen with mtime 1713376898.1169822
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1713184046.082029
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\encoding.py first seen with mtime 1713184046.2908995
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1713184039.2903426
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_bz2.pyd first seen with mtime 1712090302.4776468
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\vendored\bytecode\instr.py first seen with mtime 1712578247.2165897
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1713184045.893145
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1713184044.2541065
+File C:\LocDataDjango\apps\consultacpf\admin.py first seen with mtime 1713873629.0286746
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1713184039.2943397
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_common.py first seen with mtime 1698772687.3888142
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_api.py first seen with mtime 1712578243.5968964
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1713184041.407002
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\utils.py first seen with mtime 1707398337.5361245
+File C:\LocDataDjango\envloc\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1713184046.173974
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\management\color.py first seen with mtime 1713184045.9790924
+File C:\LocDataDjango\envloc\Lib\site-packages\django\__init__.py first seen with mtime 1713184040.0693018
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1713184044.609888
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\enum.py first seen with mtime 1712090306.1779482
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_save_locals.py first seen with mtime 1712578244.1095798
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_utils.py first seen with mtime 1712578244.5367856
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1713184046.1499884
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\secrets.py first seen with mtime 1698772667.0174305
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1713184039.3003361
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\dates.py first seen with mtime 1713184046.2879033
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\_itertools.py first seen with mtime 1698772664.9025803
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\move.py first seen with mtime 1713184045.822189
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1713184046.088026
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_lzma.pyd first seen with mtime 1712090302.5422475
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\_pydev_filesystem_encoding.py first seen with mtime 1712578241.022917
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_constants.py first seen with mtime 1698772666.9429057
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1713184045.0336254
+File C:\LocDataDjango\baselocdata\settings.py first seen with mtime 1713812802.8638575
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1713184045.8151953
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\cache.py first seen with mtime 1713184046.2839046
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1713184046.1609814
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\transports.py first seen with mtime 1698772656.699613
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\safestring.py first seen with mtime 1713184046.3018935
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1713184045.8201904
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1713184043.5577426
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\reprlib.py first seen with mtime 1698772666.933461
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\pydevd_frame_eval_main.py first seen with mtime 1712578244.5968788
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1713184040.3801095
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1713184046.1709752
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_bytecode_utils.py first seen with mtime 1712578243.6018925
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_additional_thread_info_regular.py first seen with mtime 1712578243.5919
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1713184040.381109
+File C:\LocDataDjango\envloc\Lib\site-packages\widget_tweaks\models.py first seen with mtime 1713376898.1179614
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1713184045.05961
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1713184046.2899003
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\debug.py first seen with mtime 1713184046.3108873
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\context.py first seen with mtime 1713184046.2509253
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\extensions\types\pydevd_helpers.py first seen with mtime 1712578248.7407155
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_weakrefset.py first seen with mtime 1698772687.5225255
+File C:\LocDataDjango\apps\consultacpf\views.py first seen with mtime 1713448437.2744057
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\collections\abc.py first seen with mtime 1698772656.9768639
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\hmac.py first seen with mtime 1707398338.4360123
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1713184045.8481736
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\site.py first seen with mtime 1707398344.3080926
+File C:\LocDataDjango\apps\usuarios\admin.py first seen with mtime 1713446040.173318
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_traceproperty.py first seen with mtime 1712578244.5297928
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_runfiles\__init__.py first seen with mtime 1712578241.5833378
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_concurrency_analyser\pydevd_thread_wrappers.py first seen with mtime 1712578243.936687
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\__init__.py first seen with mtime 1698772658.7654305
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1713184045.0496154
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\datetime.py first seen with mtime 1698772657.1634822
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame_utils.py first seen with mtime 1712578244.0286307
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\resources\abc.py first seen with mtime 1698772664.9487038
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\django_debug.py first seen with mtime 1712578248.7357192
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py first seen with mtime 1712090308.5252354
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\numbers.py first seen with mtime 1698772666.7994995
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1713184045.8971431
+File C:\LocDataDjango\envloc\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1713184046.2429316
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\i18n.py first seen with mtime 1713184046.3128867
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\latin_1.py first seen with mtime 1698772658.704422
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\response.py first seen with mtime 1713184046.2569208
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_override.py first seen with mtime 1712578241.5763423
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1713184041.212122
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1713184045.0616086
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\_pydev_saved_modules.py first seen with mtime 1712578241.0389054
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevconsole.py first seen with mtime 1712578248.2239335
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_decimal.pyd first seen with mtime 1712090302.4876766
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\futures.py first seen with mtime 1698772656.3586035
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_console.py first seen with mtime 1712578243.9396844
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1713184046.1379943
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\idna.py first seen with mtime 1698772658.6530247
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\database.py first seen with mtime 1713184045.057611
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1713184041.0192432
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\mime\text.py first seen with mtime 1698772658.0987535
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_json_debug_options.py first seen with mtime 1712578244.0416217
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1713184041.21512
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1713184045.0396223
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py first seen with mtime 1707398337.399215
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1713184039.2883441
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1713184046.3218806
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\weakref.py first seen with mtime 1698772686.8645492
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\inspect.py first seen with mtime 1712090307.1910186
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_exec2.py first seen with mtime 1712578244.0086422
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ast.py first seen with mtime 1698772656.3419735
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\utils.py first seen with mtime 1713184046.1549854
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_import_class.py first seen with mtime 1712578244.036625
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\extensions\__init__.py first seen with mtime 1712578248.7367184
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\defaults.py first seen with mtime 1713184046.3118875
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\extensions\types\__init__.py first seen with mtime 1712578248.7397163
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\options.py first seen with mtime 1713184046.1519873
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py first seen with mtime 1712090306.281921
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydev_ipython\matplotlibtools.py first seen with mtime 1712578248.2089407
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_collect_bytecode_info.py first seen with mtime 1712578243.6078901
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\utils.py first seen with mtime 1713184046.181967
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1713184044.608888
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1713184045.8431764
+File C:\LocDataDjango\envloc\Lib\site-packages\django\middleware\cache.py first seen with mtime 1713184046.2439294
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1713184046.2889009
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1713184041.0212398
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1713184041.0332344
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1713184041.0202415
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1713184046.1339965
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\formats.py first seen with mtime 1713184046.2918992
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\pyexpat.pyd first seen with mtime 1712090300.9876866
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\abc.py first seen with mtime 1698772656.3349357
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1713184046.0850277
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\fields.py first seen with mtime 1713184046.1769724
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_vm_type.py first seen with mtime 1712578244.5467815
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_concurrency_analyser\__init__.py first seen with mtime 1712578243.6458652
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\public_api.py first seen with mtime 1712578248.8766322
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\sslproto.py first seen with mtime 1707398337.402819
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\posixpath.py first seen with mtime 1698772666.8482747
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1713184046.089025
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\response.py first seen with mtime 1698772686.7715082
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1713184046.0930219
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_markupbase.py first seen with mtime 1698772687.4824214
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\formsets.py first seen with mtime 1713184046.17897
+File C:\LocDataDjango\envloc\Lib\site-packages\asgiref\local.py first seen with mtime 1713184039.8139439
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\__init__.py first seen with mtime 1712578244.57569
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\__init__.py first seen with mtime 1712578243.117586
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1713184046.159982
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\decimal.py first seen with mtime 1698772657.2140477
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\operator.py first seen with mtime 1698772666.8093345
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\wsgiref\util.py first seen with mtime 1698772686.8750186
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\__init__.py first seen with mtime 1713184046.2489257
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_comm.py first seen with mtime 1712578243.6138864
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ctypes\_endian.py first seen with mtime 1707398337.4801
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1713184041.03723
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_xml.py first seen with mtime 1712578244.5507765
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1713184045.0566127
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1713184046.156984
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1713184046.0930219
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1713184041.0352318
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\_pydev_execfile.py first seen with mtime 1712578241.0199165
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_net_command_factory_json.py first seen with mtime 1712578244.0436208
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py first seen with mtime 1698772656.549729
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\log.py first seen with mtime 1713184046.2988956
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1713184046.2988956
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\mimetypes.py first seen with mtime 1712090307.5825956
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\vendored\bytecode\flags.py first seen with mtime 1712578247.2145915
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1713184039.2963388
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1713184046.0730355
+File C:\LocDataDjango\envloc\Lib\site-packages\pytz\lazy.py first seen with mtime 1713184936.94389
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_is_thread_alive.py first seen with mtime 1712578241.3514802
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\charset.py first seen with mtime 1698772658.0079398
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1713184046.1759727
+File C:\LocDataDjango\envloc\Lib\site-packages\widget_tweaks\templatetags\widget_tweaks.py first seen with mtime 1713376898.1189604
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_io.py first seen with mtime 1712578244.0386243
+File C:\LocDataDjango\envloc\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1713184046.2409317
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\_tzpath.py first seen with mtime 1698772687.3948164
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\_policybase.py first seen with mtime 1698772658.2261143
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1713184045.8981428
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tempfile.py first seen with mtime 1707398344.3586016
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1713184046.3068905
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1713184046.1619816
+File C:\LocDataDjango\envloc\Lib\site-packages\asgiref\__init__.py first seen with mtime 1713184039.8119416
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\functional.py first seen with mtime 1713184046.2928984
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1713184045.0406208
+File C:\LocDataDjango\envloc\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1713184039.812945
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\bz2.py first seen with mtime 1698772656.9578784
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\dis.py first seen with mtime 1701790967.353923
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_utils.py first seen with mtime 1698772656.7354743
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\machinery.py first seen with mtime 1698772664.8962443
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1713184046.3148854
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1713184045.8961434
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_defaults.py first seen with mtime 1712578243.9956505
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_custom_frames.py first seen with mtime 1712578243.9446812
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\quoprimime.py first seen with mtime 1698772658.1907263
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\__init__.py first seen with mtime 1698772661.2183313
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_suspended_frames.py first seen with mtime 1712578244.19253
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1713184045.051615
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\sysconfig.py first seen with mtime 1698772684.8116784
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\resources\_adapters.py first seen with mtime 1698772664.9654696
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1713184039.2893426
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\bisect.py first seen with mtime 1698772656.9558737
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1713184045.0616086
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_futures.py first seen with mtime 1698772656.3481948
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1713184046.1489892
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\temp.py first seen with mtime 1713184045.8231885
+File C:\LocDataDjango\envloc\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1713184040.372115
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\duration.py first seen with mtime 1713184046.2899003
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1713184046.1309984
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xml\parsers\expat.py first seen with mtime 1698772687.2643223
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\query.py first seen with mtime 1713184046.1529865
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1713184041.2111228
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\iterators.py first seen with mtime 1698772658.0646992
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xmlrpc\server.py first seen with mtime 1698772686.983007
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_net_command.py first seen with mtime 1712578244.0496168
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_net_command_factory_xml.py first seen with mtime 1712578244.0466187
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1713184045.9001422
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\__init__.py first seen with mtime 1698772657.0317266
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\codeop.py first seen with mtime 1701790967.3401148
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\string.py first seen with mtime 1698772683.7543023
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1713184045.816193
+File C:\LocDataDjango\apps\ticketmaster\__init__.py first seen with mtime 1713791710.0621169
+File C:\LocDataDjango\envloc\Lib\site-packages\django\urls\converters.py first seen with mtime 1713184046.277909
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\timezone.py first seen with mtime 1713184046.303893
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1713184045.8981428
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1713184046.3208814
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\base64mime.py first seen with mtime 1698772657.9989817
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_frame.py first seen with mtime 1712578244.0316286
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_process_net_command.py first seen with mtime 1712578244.0965889
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\stat.py first seen with mtime 1698772683.7503035
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\quopri.py first seen with mtime 1698772666.928902
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\difflib.py first seen with mtime 1698772657.216694
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\parser.py first seen with mtime 1698772658.1735163
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1713184046.0920234
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\platform.py first seen with mtime 1698772666.8415022
+File C:\LocDataDjango\envloc\Lib\site-packages\_distutils_hack\__init__.py first seen with mtime 1713183992.763992
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1713184044.6138847
+File C:\LocDataDjango\apps\ticketmaster\admin.py first seen with mtime 1713791710.034987
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\selectors.py first seen with mtime 1698772667.020914
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\threads.py first seen with mtime 1698772656.6467783
+File C:\LocDataDjango\envloc\Lib\site-packages\django\urls\__init__.py first seen with mtime 1713184046.2759101
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\views.py first seen with mtime 1713184041.2171192
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xmlrpc\client.py first seen with mtime 1698772686.9808245
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_socket.pyd first seen with mtime 1712090302.8875337
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1713184046.166978
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\autoreload.py first seen with mtime 1713184046.249925
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1713184046.0830414
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\json\scanner.py first seen with mtime 1698772665.2346194
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\_pydev_imports_tipper.py first seen with mtime 1712578241.028911
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xml\__init__.py first seen with mtime 1698772687.374272
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1713184046.1509879
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\tree.py first seen with mtime 1713184046.304892
+File C:\LocDataDjango\envloc\Lib\site-packages\django\urls\conf.py first seen with mtime 1713184046.2769094
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\heapq.py first seen with mtime 1698772660.9404173
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1713184039.2913423
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1713184039.2853475
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\signal.py first seen with mtime 1707398342.136779
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\library.py first seen with mtime 1713184046.2559218
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\hashable.py first seen with mtime 1713184046.2938976
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\wsgi.py first seen with mtime 1713184045.0496154
+File C:\LocDataDjango\envloc\Lib\site-packages\django\middleware\security.py first seen with mtime 1713184046.2489257
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\base.py first seen with mtime 1713184046.1449902
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\mime\__init__.py first seen with mtime 1712090264.2652476
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\_meta.py first seen with mtime 1698772664.90368
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_subprocess.py first seen with mtime 1698772656.3492022
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_file_utils.py first seen with mtime 1712578248.7317219
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1713184045.05961
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\types.py first seen with mtime 1698772686.629346
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1713184045.8461747
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\queues.py first seen with mtime 1698772656.546734
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1713184044.8847172
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1713184045.0356238
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_source_mapping.py first seen with mtime 1712578244.1865325
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\hashlib.py first seen with mtime 1698772660.7796726
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\csrf.py first seen with mtime 1713184046.3108873
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_log.py first seen with mtime 1712578241.5663476
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1713184046.3208814
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1713184041.4040039
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_imports.py first seen with mtime 1712578241.1404328
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1713184044.8857167
+File C:\LocDataDjango\apps\ticketmaster\views.py first seen with mtime 1713817010.7913332
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1713184045.0396223
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_timeout.py first seen with mtime 1712578244.1995254
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1713184044.2491095
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_compat_pickle.py first seen with mtime 1698772687.477826
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1713184041.2071252
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\util.py first seen with mtime 1712090306.588308
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_daemon_thread.py first seen with mtime 1712578243.992652
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ipaddress.py first seen with mtime 1701790970.8615026
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\__init__.py first seen with mtime 1698772658.2291126
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\log.py first seen with mtime 1698772656.3616042
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\files.py first seen with mtime 1713184045.0586097
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\constants.py first seen with mtime 1713184046.1459894
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1713184041.4050028
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1713184046.0950212
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pickle.py first seen with mtime 1707398342.0515072
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py first seen with mtime 1712090314.3767219
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\operations.py first seen with mtime 1713185229.2889235
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\__init__.py first seen with mtime 1698772666.951543
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1713184046.143991
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\stringprep.py first seen with mtime 1698772684.0617974
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1713184045.8941448
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\loader.py first seen with mtime 1713184046.2559218
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\schema.py first seen with mtime 1713185229.2909236
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1713184039.298337
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1713184046.1579835
+File C:\LocDataDjango\envloc\Lib\site-packages\django\http\__init__.py first seen with mtime 1713184046.2399318
+File C:\LocDataDjango\envloc\Lib\site-packages\asgiref\sync.py first seen with mtime 1713184039.8165698
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1713184045.0566127
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1713184039.2963388
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\policy.py first seen with mtime 1707398337.5320559
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1713184041.4080014
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_extension_utils.py first seen with mtime 1712578244.0146391
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1713184044.2561052
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\introspection.py first seen with mtime 1713185229.2889235
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_dont_trace_files.py first seen with mtime 1712578243.9986484
+File C:\LocDataDjango\envloc\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1713184046.2659154
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\csv.py first seen with mtime 1698772657.0532105
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\os.py first seen with mtime 1712090308.155627
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xmlrpc\__init__.py first seen with mtime 1698772657.0317266
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1713184046.1719751
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_thread_lifecycle.py first seen with mtime 1712578244.1955273
+File C:\LocDataDjango\envloc\Lib\site-packages\widget_tweaks\templatetags\__init__.py first seen with mtime 1713376898.1179614
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\manager.py first seen with mtime 1713184046.1509879
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\resources\_legacy.py first seen with mtime 1698772664.9696047
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_safe_repr.py first seen with mtime 1712578244.107581
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_reload.py first seen with mtime 1712578244.1005855
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\uuid.py first seen with mtime 1698772686.8254504
+File C:\LocDataDjango\manage.py first seen with mtime 1713184257.352009
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\glob.py first seen with mtime 1712090306.1950893
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\backends\base.py first seen with mtime 1713184046.2599194
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1713184041.4099996
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1713184046.3168843
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\json\encoder.py first seen with mtime 1712090307.2691462
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\choices.py first seen with mtime 1713184046.2839046
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\server.py first seen with mtime 1698772661.1953108
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_breakpoints.py first seen with mtime 1712578243.5988944
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1713184041.2061255
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_concurrency_analyser\pydevd_concurrency_logger.py first seen with mtime 1712578243.651862
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pydoc.py first seen with mtime 1712090308.186118
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\base64.py first seen with mtime 1698772656.952366
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1713184039.3023345
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\creation.py first seen with mtime 1713185229.285926
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\renderers.py first seen with mtime 1713184046.1809685
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1713184046.3008938
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_hashlib.pyd first seen with mtime 1712090302.5042624
+File C:\LocDataDjango\envloc\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1713184046.278908
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1713184041.2141204
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\signals.py first seen with mtime 1713184046.1539865
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\errors.py first seen with mtime 1698772658.0463128
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1713184041.2071252
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1713184041.2081246
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1713184046.1299987
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\extensions\types\pydevd_plugin_pandas_types.py first seen with mtime 1712578248.7447133
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py first seen with mtime 1707398337.405479
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\widgets.py first seen with mtime 1713184046.1829684
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1713184046.1689768
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\utf_8.py first seen with mtime 1698772658.757002
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ctypes\__init__.py first seen with mtime 1698772657.0924096
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\signals.py first seen with mtime 1713184045.0476165
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1713184041.0352318
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\lzma.py first seen with mtime 1698772666.1971376
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\staggered.py first seen with mtime 1698772656.5596106
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\_header_value_parser.py first seen with mtime 1712090305.6790698
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\wsgiref\__init__.py first seen with mtime 1698772686.8778324
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1713184046.1639802
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socketserver.py first seen with mtime 1698772683.7284071
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1713184046.142991
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\html\entities.py first seen with mtime 1698772660.9532304
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\linecache.py first seen with mtime 1712090307.5016189
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\code.py first seen with mtime 1698772656.9698524
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\__init__.py first seen with mtime 1712578240.8831913
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1713184046.0960205
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\_adapters.py first seen with mtime 1698772664.8986645
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydev_ipython\__init__.py first seen with mtime 1712578248.006049
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\extensions\types\pydevd_plugins_django_form_str.py first seen with mtime 1712578248.7467124
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\protocols.py first seen with mtime 1698772656.5447304
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\logging\handlers.py first seen with mtime 1712090307.5066164
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\__init__.py first seen with mtime 1713184046.1749735
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_ctypes.pyd first seen with mtime 1712090302.4806428
+File C:\LocDataDjango\envloc\Lib\site-packages\django\http\cookie.py first seen with mtime 1713184046.2409317
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_queue.pyd first seen with mtime 1712090302.8712265
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\collections\__init__.py first seen with mtime 1712090305.4727461
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1713184046.1689768
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\text.py first seen with mtime 1713184046.302893
+File C:\LocDataDjango\envloc\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1713184040.0812938
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\_debug_adapter\__init__.py first seen with mtime 1712578243.1185849
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\resources\__init__.py first seen with mtime 1698772664.9707112
+File C:\LocDataDjango\baselocdata\urls.py first seen with mtime 1713792592.4286587
+File C:\LocDataDjango\envloc\Lib\site-packages\django\shortcuts.py first seen with mtime 1713184040.0703008
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\fnmatch.py first seen with mtime 1698772660.7566853
+File C:\LocDataDjango\envloc\Lib\site-packages\django\templatetags\static.py first seen with mtime 1713184046.268913
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_asyncio.pyd first seen with mtime 1712090302.4607136
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1713184046.0940213
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\dataclasses.py first seen with mtime 1712090305.5754066
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1713184041.2101233
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1713184046.1479897
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1713184046.1469886
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1713184046.2629175
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_sitebuiltins.py first seen with mtime 1698772687.4979458
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\subprocess.py first seen with mtime 1698772656.5646124
+File C:\LocDataDjango\apps\consultacpf\apps.py first seen with mtime 1713184420.156702
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\_encoded_words.py first seen with mtime 1698772658.204318
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py first seen with mtime 1707398344.3606005
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1713184046.0910246
+File C:\LocDataDjango\envloc\Lib\site-packages\pytz\exceptions.py first seen with mtime 1713184936.9418876
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1713184040.3761125
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\vendored\bytecode\concrete.py first seen with mtime 1712578247.2125924
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\generic\base.py first seen with mtime 1713184046.3198824
+File C:\LocDataDjango\envloc\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1713184040.075298
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_extension_api.py first seen with mtime 1712578244.0116408
+File C:\LocDataDjango\envloc\Lib\site-packages\pytz\tzinfo.py first seen with mtime 1713184936.946889
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1713184039.2923412
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\models.py first seen with mtime 1713184046.1809685
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1713184046.281906
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\__init__.py first seen with mtime 1713184046.3098886
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\keyword.py first seen with mtime 1698772665.3023171
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1713184044.2551057
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\locks.py first seen with mtime 1698772656.3596056
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\typing.py first seen with mtime 1712090314.1185691
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\cookies.py first seen with mtime 1698772661.10354
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\_functools.py first seen with mtime 1698772664.9016387
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_cython.cp311-win_amd64.pyd first seen with mtime 1712578243.9856558
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\mixins.py first seen with mtime 1698772656.3626044
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1713184040.3771112
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\ascii.py first seen with mtime 1698772658.4889185
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_umd.py first seen with mtime 1712578241.5783417
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1713184046.2859027
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_process_net_command_json.py first seen with mtime 1712578244.0546136
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\subprocess.py first seen with mtime 1712090313.345929
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\zipfile.py first seen with mtime 1712090314.7210143
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1713184046.3158844
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\genericpath.py first seen with mtime 1698772660.7656794
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\argparse.py first seen with mtime 1712090304.6575193
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\_os.py first seen with mtime 1713184046.280906
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1713184046.263917
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\utils.py first seen with mtime 1713184046.0910246
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1713184046.0830414
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1713184041.21512
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1713184045.034626
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1713184045.0366235
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\generator.py first seen with mtime 1712090305.6684723
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\vendored\__init__.py first seen with mtime 1712578244.63227
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_version.py first seen with mtime 1712578248.7716973
+File C:\LocDataDjango\apps\usuarios\apps.py first seen with mtime 1713445796.3720152
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1713184045.844176
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_parser.py first seen with mtime 1701790970.969937
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py first seen with mtime 1698772665.2422051
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1713184045.0536134
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1713184045.034626
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1713184046.166978
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1713184046.1379943
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextvars.py first seen with mtime 1698772657.042577
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_overlapped.pyd first seen with mtime 1712090302.8516457
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_console_utils.py first seen with mtime 1712578241.1334345
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\textwrap.py first seen with mtime 1698772684.8418896
+File C:\LocDataDjango\baselocdata\__init__.py first seen with mtime 1713184257.3699996
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_casefix.py first seen with mtime 1698772666.936661
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\pydevd_line_validation.py first seen with mtime 1712578248.7637012
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\vendored\bytecode\__init__.py first seen with mtime 1712578247.2075973
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\nturl2path.py first seen with mtime 1698772666.7965004
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\re\_compiler.py first seen with mtime 1701790970.965904
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1713184046.2869027
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_resolver.py first seen with mtime 1712578244.1035838
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\decorators.py first seen with mtime 1713184046.2889009
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_tracing.py first seen with mtime 1712578248.7647007
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\select.pyd first seen with mtime 1712090301.4309616
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\exceptions.py first seen with mtime 1713184045.0456185
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\copy.py first seen with mtime 1698772657.043489
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1713184040.3771112
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\_debug_adapter\pydevd_base_schema.py first seen with mtime 1712578243.5319374
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\feedparser.py first seen with mtime 1698772658.0477724
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\extensions\types\pydevd_plugin_numpy_types.py first seen with mtime 1712578248.7427142
+File C:\LocDataDjango\envloc\Lib\site-packages\django\http\response.py first seen with mtime 1713184046.2429316
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1713184039.3013353
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_compression.py first seen with mtime 1698772687.4807231
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1713184046.0350583
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\connection.py first seen with mtime 1713184046.284904
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py first seen with mtime 1698772665.2196014
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1713184045.054613
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py first seen with mtime 1698772665.088609
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1713184046.1659782
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1713184041.034233
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1713184044.608888
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1713184046.1000197
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\static.py first seen with mtime 1713184046.3128867
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\opcode.py first seen with mtime 1698772666.8073351
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\functools.py first seen with mtime 1698772660.7626817
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1713184045.8191912
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\logging\__init__.py first seen with mtime 1712090307.5117826
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\taskgroups.py first seen with mtime 1701790967.0740013
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\_parseaddr.py first seen with mtime 1698772658.225115
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1713184045.895145
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\wsgiref\simple_server.py first seen with mtime 1698772686.871545
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\logging\config.py first seen with mtime 1701790970.8664994
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ctypes\wintypes.py first seen with mtime 1698772657.0875964
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\queue.py first seen with mtime 1698772666.9259021
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\xml\parsers\__init__.py first seen with mtime 1698772687.2654746
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1713184046.1399927
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\_debug_adapter\pydevd_schema_log.py first seen with mtime 1712578243.5359347
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\unicodedata.pyd first seen with mtime 1712090302.4485595
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\html\parser.py first seen with mtime 1698772660.9584205
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\_debug_adapter\pydevd_schema.py first seen with mtime 1712578243.5859022
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1713184039.2993362
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1713184046.3168843
+File C:\LocDataDjango\envloc\Lib\site-packages\django\apps\registry.py first seen with mtime 1713184040.0732994
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\functions.py first seen with mtime 1713185229.287924
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1713184040.3751123
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1713184040.3841133
+File C:\LocDataDjango\apps\consultacpf\__init__.py first seen with mtime 1713184420.161697
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1713184039.2973392
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ntpath.py first seen with mtime 1698772666.7945006
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1713184046.155985
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\__init__.py first seen with mtime 1713184046.280906
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1713184046.1649792
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\backends\django.py first seen with mtime 1713184046.2599194
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1713184041.4080014
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\warnings.py first seen with mtime 1707398344.453848
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\wsgiref\headers.py first seen with mtime 1698772686.8705454
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1713184044.6118867
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1713184040.3821084
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_zoneinfo.pyd first seen with mtime 1712090303.0066924
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\paginator.py first seen with mtime 1713184045.0466187
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_cython_wrapper.py first seen with mtime 1712578243.948679
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1713184045.057611
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1713184045.8181925
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1713184046.2619183
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1713184045.0506146
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_trace_api.py first seen with mtime 1712578244.2015235
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\aliases.py first seen with mtime 1698772658.4868479
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py first seen with mtime 1707398337.3965116
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevconsole_code.py first seen with mtime 1712578243.5879028
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\timesince.py first seen with mtime 1713184046.302893
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1713184046.2539232
+File C:\LocDataDjango\envloc\Lib\site-packages\pytz\__init__.py first seen with mtime 1713184936.940905
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\resources\_common.py first seen with mtime 1698772664.9672353
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\mime\nonmultipart.py first seen with mtime 1698772658.090716
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\__init__.py first seen with mtime 1712090306.5580275
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\cli.py first seen with mtime 1713184039.287346
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1713184045.0606089
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1713184045.8191912
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py first seen with mtime 1698772658.545913
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1713184046.0950212
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1713184045.0386226
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1713184046.1609814
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1713184046.263917
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\parse.py first seen with mtime 1712090314.3046665
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\codecs.py first seen with mtime 1698772656.972049
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1713184046.1659782
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\headerregistry.py first seen with mtime 1698772658.0618854
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\utils.py first seen with mtime 1713184045.8451755
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\base.py first seen with mtime 1713184046.2509253
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\images.py first seen with mtime 1713184045.8211896
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\format_helpers.py first seen with mtime 1698772656.357616
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\html\__init__.py first seen with mtime 1698772660.9634225
+File C:\LocDataDjango\apps\usuarios\__init__.py first seen with mtime 1713445796.4059348
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\error.py first seen with mtime 1698772686.7645154
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\enums.py first seen with mtime 1713184046.1479897
+File C:\LocDataDjango\apps\consultacpf\models.py first seen with mtime 1713810453.8893135
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\constants.py first seen with mtime 1707398337.397956
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_uuid.pyd first seen with mtime 1712090303.0026968
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1713184044.612886
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\locks.py first seen with mtime 1713184045.822189
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\validators.py first seen with mtime 1713184045.0486157
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1713184046.2529237
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\management\base.py first seen with mtime 1713184045.9780936
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\sql.py first seen with mtime 1713184039.2913423
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\force_pydevd.py first seen with mtime 1712578240.8791957
+File C:\LocDataDjango\envloc\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1713184046.172974
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\contentmanager.py first seen with mtime 1698772658.0109384
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\calendar.py first seen with mtime 1707398337.463515
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1713184045.0506146
+File C:\LocDataDjango\envloc\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1713184046.2669146
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\html.py first seen with mtime 1713184046.2938976
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1713184046.295897
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1713184046.2649162
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1713184041.3900127
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\mime\multipart.py first seen with mtime 1698772658.0891724
+File C:\LocDataDjango\apps\ticketmaster\apps.py first seen with mtime 1713791710.0429914
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py first seen with mtime 1712578244.1055825
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\base.py first seen with mtime 1713185229.283928
+File C:\LocDataDjango\envloc\Lib\site-packages\pyodbc.cp311-win_amd64.pyd first seen with mtime 1713184868.3794973
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\fsnotify\__init__.py first seen with mtime 1712578241.1294377
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\__init__.py first seen with mtime 1713184045.044619
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1713184046.308889
+File C:\LocDataDjango\apps\usuarios\models.py first seen with mtime 1713447033.356606
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1713184046.1399927
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1713184045.8481736
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1713184046.2829044
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1713184046.1409922
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1713184045.849173
+File C:\LocDataDjango\envloc\Lib\site-packages\django\http\request.py first seen with mtime 1713184046.2419302
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydev_ipython\inputhook.py first seen with mtime 1712578248.0080507
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\graphlib.py first seen with mtime 1698772660.774675
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1713184045.0426202
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_command_line_handling.py first seen with mtime 1712578243.643866
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\vendored\bytecode\cfg.py first seen with mtime 1712578247.2105937
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\zoneinfo\__init__.py first seen with mtime 1698772687.3988082
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\crypto.py first seen with mtime 1713184046.2859027
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\http.py first seen with mtime 1713184046.2948973
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\__init__.py first seen with mtime 1712578240.767261
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\traceback.py first seen with mtime 1707398344.382699
+File C:\LocDataDjango\envloc\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1713184046.267914
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pathlib.py first seen with mtime 1698772666.819491
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\client.py first seen with mtime 1713185229.283928
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1713184040.3781106
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\trsock.py first seen with mtime 1698772656.7294781
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1713184041.212122
+File C:\LocDataDjango\envloc\Lib\site-packages\django\forms\forms.py first seen with mtime 1713184046.1779702
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\mail\message.py first seen with mtime 1713184045.8991432
+File C:\LocDataDjango\envloc\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1713184046.278908
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py first seen with mtime 1698772656.5706089
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\gzip.py first seen with mtime 1698772660.7766745
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1713184044.610887
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\tokenize.py first seen with mtime 1698772685.8263972
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1713184045.8171945
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\io.py first seen with mtime 1701790970.8525941
+File C:\LocDataDjango\envloc\Lib\site-packages\django\apps\__init__.py first seen with mtime 1713184040.0713003
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1713184046.2998965
+File C:\LocDataDjango\envloc\Lib\site-packages\django\urls\base.py first seen with mtime 1713184046.2769094
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_tasks.py first seen with mtime 1698772656.3512115
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\token.py first seen with mtime 1698772685.825512
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_constants.py first seen with mtime 1712578243.9426825
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\__init__.py first seen with mtime 1698772656.7364717
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1713184039.2943397
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py first seen with mtime 1698772656.3656023
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_comm_constants.py first seen with mtime 1712578243.6098878
+File C:\LocDataDjango\envloc\Lib\site-packages\django\apps\config.py first seen with mtime 1713184040.0723004
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1713184046.155985
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1713184041.4050028
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py first seen with mtime 1698772656.999803
+File C:\LocDataDjango\envloc\Lib\site-packages\pytz\tzfile.py first seen with mtime 1713184936.9458897
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1713184046.1419919
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\_pydev_completer.py first seen with mtime 1712578241.0169182
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\transaction.py first seen with mtime 1713184046.0900245
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1713184044.2501087
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\utils.py first seen with mtime 1713184046.2589192
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1713184041.2171192
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\mime\base.py first seen with mtime 1698772658.083469
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\_pydev_calltip_util.py first seen with mtime 1712578240.8861878
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\__init__.py first seen with mtime 1712578240.7722576
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\_abc.py first seen with mtime 1698772665.0804
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1713184044.2501087
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1713184045.0606089
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1713184046.2589192
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1713184046.2569208
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1713184041.4060028
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1713184045.8471758
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1713184040.3831098
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1713184046.3138862
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\getpass.py first seen with mtime 1698772660.7686772
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\_collections.py first seen with mtime 1698772664.8999834
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1713184044.8797204
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\mime\message.py first seen with mtime 1698772658.0881681
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py first seen with mtime 1701790967.3510323
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_trace_dispatch.py first seen with mtime 1712578244.2085202
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_dont_trace.py first seen with mtime 1712578244.002646
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\__init__.py first seen with mtime 1713184046.0900245
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\features.py first seen with mtime 1713185229.285926
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\_collections_abc.py first seen with mtime 1698772687.4751189
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py first seen with mtime 1707398344.3117914
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\jinja2_debug.py first seen with mtime 1712578248.7627022
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py first seen with mtime 1712090304.7538626
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1713184046.1709752
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1713184045.9760952
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\random.py first seen with mtime 1698772666.9299011
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1713184046.1639802
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1713184040.3741138
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\metadata\_text.py first seen with mtime 1698772664.9045637
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\struct.py first seen with mtime 1698772684.0904696
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_vars.py first seen with mtime 1712578244.541785
+File C:\LocDataDjango\envloc\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1713184046.2459273
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1713184041.2041268
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1713184046.1419919
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pkgutil.py first seen with mtime 1698772666.8324406
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\abc.py first seen with mtime 1698772664.8952382
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\__init__.py first seen with mtime 1698772657.0044856
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\copyreg.py first seen with mtime 1698772657.0460906
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\message.py first seen with mtime 1712090305.672469
+File C:\LocDataDjango\envloc\Lib\site-packages\django\core\files\base.py first seen with mtime 1713184045.8211896
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\DLLs\_ssl.pyd first seen with mtime 1712090302.9404993
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\__future__.py first seen with mtime 1698772687.547096
+File C:\LocDataDjango\envloc\Lib\site-packages\mssql\__init__.py first seen with mtime 1713185229.2829278
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1713184046.3018935
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\pydevd_plugins\__init__.py first seen with mtime 1712578248.73372
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1713184046.1629806
+File C:\LocDataDjango\envloc\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1713184046.2699137
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1713184041.2051265
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\encoders.py first seen with mtime 1698772658.011938
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1713184044.2511084
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\coroutines.py first seen with mtime 1698772656.353889
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\inspect.py first seen with mtime 1713184046.2948973
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\_pydev_tipper_common.py first seen with mtime 1712578241.0449014
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1713184039.2953389
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\smartif.py first seen with mtime 1713184046.2579207
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\gettext.py first seen with mtime 1701790967.4084363
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\__init__.py first seen with mtime 1712090278.1604457
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_filtering.py first seen with mtime 1712578244.0256314
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1713184046.0980198
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\engine.py first seen with mtime 1713184046.2539232
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\_util.py first seen with mtime 1712578240.7782564
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1713184046.0990202
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\email\header.py first seen with mtime 1698772658.057885
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1713184041.2141204
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_plugin_utils.py first seen with mtime 1712578244.0516157
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1713184040.3791096
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py first seen with mtime 1707398337.400989
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\locale.py first seen with mtime 1701790970.8645008
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1713184046.2998965
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1713184046.2968962
+File C:\LocDataDjango\envloc\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1713184046.2669146
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\generic\list.py first seen with mtime 1713184046.3228807
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\wsgiref\handlers.py first seen with mtime 1698772686.868549
+File C:\LocDataDjango\envloc\Lib\site-packages\django\conf\__init__.py first seen with mtime 1713184040.0742986
+File C:\LocDataDjango\envloc\Lib\site-packages\django\urls\utils.py first seen with mtime 1713184046.2799072
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py first seen with mtime 1698772657.0014832
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\exceptions.py first seen with mtime 1698772656.3564177
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1713184046.1579835
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1713184046.0970206
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1713184041.0332344
+File C:\LocDataDjango\envloc\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1713184040.385106
+File C:\LocDataDjango\envloc\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1713184046.3198824
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1713184046.1589828
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\version.py first seen with mtime 1713184046.304892
+File C:\LocDataDjango\envloc\Lib\site-packages\sqlparse\utils.py first seen with mtime 1713184039.2933402
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1713184046.2869027
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py first seen with mtime 1707398344.310096
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_frame_eval\vendored\bytecode\bytecode.py first seen with mtime 1712578247.2095942
+File C:\LocDataDjango\envloc\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1713184046.3068905
+File C:\Users\LUCCAS_FERNANDES\.vscode\extensions\ms-python.debugpy-2024.4.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_additional_thread_info.py first seen with mtime 1712578243.5938983
+File C:\LocDataDjango\envloc\Lib\site-packages\django\template\exceptions.py first seen with mtime 1713184046.254922
+File C:\LocDataDjango\envloc\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1713184046.0960205
+File C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pprint.py first seen with mtime 1707398342.073693
+File C:\LocDataDjango\apps\ticketmaster\templates\home.html first seen with mtime 1713817776.386652
+File C:\LocDataDjango\apps\ticketmaster\templates\partials first seen with mtime 1713804946.634915
+File C:\LocDataDjango\apps\ticketmaster\templates\partials\paginacao.html first seen with mtime 1713805814.9935215
+File C:\LocDataDjango\apps\consultacpf\templates\consultacpf.html first seen with mtime 1713452040.8875477
+File C:\LocDataDjango\apps\consultacpf\templates\Erro404CPF.html first seen with mtime 1713200420.5525775
+File C:\LocDataDjango\apps\consultacpf\templates\listardados.html first seen with mtime 1713362052.477211
+File C:\LocDataDjango\apps\consultacpf\templates\login.html first seen with mtime 1713449580.7211802
