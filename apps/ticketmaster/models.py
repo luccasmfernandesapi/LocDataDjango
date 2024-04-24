@@ -5,6 +5,7 @@ from consultacpf.models import PessoaFisica
 class TmAereoTrx(models.Model):
     # Field name made lowercase.
     id = models.BigAutoField(db_column='ID', primary_key=True)
+
     # Field name made lowercase.
     merchantid = models.CharField(
         db_column='MerchantID', max_length=300, blank=True, null=True)

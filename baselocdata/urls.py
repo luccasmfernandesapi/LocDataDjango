@@ -19,6 +19,7 @@ urlpatterns = [
 
     # TicketMaster
     path('ticketmaster/home/',
-         view_master.home, name="hometm")
+         view_master.home, name="hometm"),
+
 
 ]

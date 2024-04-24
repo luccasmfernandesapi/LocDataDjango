@@ -222,8 +222,8 @@ class Email(models.Model):
 
 class EmailNovos(models.Model):
     # Field name made lowercase.
-    contatos_id = models.BigIntegerField(
-        db_column='CONTATOS_ID', blank=True, null=False)
+    contatos_id = models.ForeignKey(PessoaFisica,
+                                    db_column='CONTATOS_ID', on_delete=models.PROTECT, to_field='contatos_id', related_name='emails')
     # Field name made lowercase.
     email = models.CharField(
         db_column='EMAIL', max_length=255, blank=True, null=True)
@@ -257,7 +257,7 @@ class EmailNovos(models.Model):
     peso = models.IntegerField(db_column='PESO', blank=True, null=True)
     # Field name made lowercase.
     cadastro_id = models.CharField(
-        db_column='CADASTRO_ID', max_length=255, blank=True, null=False, primary_key=True)
+        db_column='CADASTRO_ID', max_length=255, primary_key=True)
     # Field name made lowercase.
     dt_inclusao = models.DateTimeField(
         db_column='DT_INCLUSAO', blank=True, null=True)
@@ -433,8 +433,8 @@ class Endereco(models.Model):
     historico_enderecos_id = models.BigIntegerField(
         db_column='HISTORICO_ENDERECOS_ID')
     # Field name made lowercase.
-    contatos_id = models.OneToOneField(PessoaFisica, related_name='enderecos',
-                                       db_column='CONTATOS_ID', primary_key=True, on_delete=models.PROTECT, to_field='contatos_id')
+    contatos_id = models.ForeignKey(PessoaFisica, related_name='enderecos',
+                                    db_column='CONTATOS_ID', on_delete=models.PROTECT, to_field='contatos_id')
     # Field name made lowercase.
     logr_tipo = models.CharField(
         db_column='LOGR_TIPO', max_length=10, blank=True, null=True)
@@ -471,7 +471,7 @@ class Endereco(models.Model):
     cep_nota = models.IntegerField(db_column='CEP_NOTA', blank=True, null=True)
     # Field name made lowercase.
     cadastro_id = models.IntegerField(
-        db_column='CADASTRO_ID', blank=True, null=True)
+        db_column='CADASTRO_ID', primary_key=True)
     # Field name made lowercase.
     dt_inclusao = models.DateTimeField(
         db_column='DT_INCLUSAO', blank=True, null=True)
@@ -847,8 +847,8 @@ class Telefone(models.Model):
     historico_enderecos_id = models.BigIntegerField(
         db_column='HISTORICO_ENDERECOS_ID')
     # Field name made lowercase.
-    contatos_id = models.BigIntegerField(
-        db_column='CONTATOS_ID', primary_key=True)
+    contatos_id = models.ForeignKey(PessoaFisica, on_delete=models.PROTECT,
+                                    db_column='CONTATOS_ID', to_field="contatos_id", related_name="telefones")
     # Field name made lowercase.
     ddd = models.CharField(db_column='DDD', max_length=2)
     # Field name made lowercase.
@@ -856,7 +856,8 @@ class Telefone(models.Model):
     # Field name made lowercase.
     tipo_telefone = models.SmallIntegerField(db_column='TIPO_TELEFONE')
     # Field name made lowercase.
-    cadastro_id = models.IntegerField(db_column='CADASTRO_ID')
+    cadastro_id = models.IntegerField(
+        db_column='CADASTRO_ID', primary_key=True)
     # Field name made lowercase.
     dt_inclusao = models.DateTimeField(
         db_column='DT_INCLUSAO', blank=True, null=True)

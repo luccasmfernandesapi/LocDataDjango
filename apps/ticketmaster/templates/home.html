@@ -20,12 +20,9 @@
         <form action="{% url 'logout' %}" method="post">
             {% csrf_token %}
             <button type="submit" style="width:50px" class="btn btn-primary btn-user btn-block">
-                <span class="text">Sair</span>
-            </button>
+                <span class="text">Sair</span></button>
         </form>
     </nav>
-
-
     <div class="pesquisacontainer">
         <div class="container">
             <form method="GET" action=" {% url 'hometm' %} " class="search-form">
@@ -33,7 +30,9 @@
                 <label for="status">Status:</label>
 
                 <select name="status" id="status">
-                    <option value="" selected>Selecione o Status</option>
+                    <option value="{% if request.GET.status  %} {{ request.GET.status }} {% else %}  {% endif %}"
+                        selected>{% if request.GET.status %} {{ request.GET.status }} {% else %} Selecione um valor
+                        {%endif %}</option>
                     <option value="Urgente">Urgente</option>
                     <option value="Pendente">Pendente</option>
                     <option value="Prioridade">Prioridade</option>
@@ -41,15 +40,14 @@
                     <option value="Sem Contato">Sem Contato</option>
                     <option value="Fraude">Fraude</option>
                     <option value="Sem Contato/Suspeito">Sem Contato/Suspeito</option>
+                    <option value="">Todos</option>
                 </select>
                 <button type="submit" class=".searchbutton">Pesquisa</button>
             </form>
         </div>
     </div>
-
     <main>
         <div name="trx">
-
             <div class="flex-container header">
                 <div class="flex-item">ID</div>
                 <div class="flex-item">Status</div>
@@ -60,7 +58,6 @@
                 <div class="flex-item">Data Voo</div>
                 <div class="flex-item">Trecho</div>
                 <div class="flex-item"></div>
-
             </div>
             {% for trx in transacoes %}
             <div class="flex-container">
@@ -74,15 +71,9 @@
                 <div class="flex-item">{{ trx.completeroute }}</div>
                 <div class="flex-item"><button type="button" class="btn btn-light show-details-btn"
                         data-trx-id="{{ trx.id }}">Detalhe</button></div>
-                        
-                    </div>
-                    
-                    
-            
+            </div>
         </div>
-        
         <div class="flex-container details" id="details-{{ trx.id }}" style="display: none;">
-            
             <div>
                 <h1>Dados Trx</h1>
                 <p>Nome Passageiro: {{ trx.nome_passageiro_1 }}</p>
@@ -90,17 +81,35 @@
                 <p>Email: {{ trx.billing_email }}</p>
                 <p>Telefone: {{ trx.billing_phone }}</p>
                 <p>CEP: {{ trx.billing_postalcode }}</p>
-                
                 <h1>Dados Base</h1>
-                {% for trx in transacoes %}
-                Endereço: {{ trx.frequent_flyer_number.enderecos.endereco }}
-                Cidade: {{ trx.frequent_flyer_number.cidade }}
+                <h1>Endereço</h1>
+                {% if trx.frequent_flyer_number.enderecos %}
+                {% for endereco in trx.frequent_flyer_number.enderecos.all %}
+                <p>Endereço: {{ endereco.endereco }} | Bairro {{ endereco.bairro }} | Cidade: {{ endereco.cidade }} | UF
+                    {{ endereco.uf }} | CEP {{ endereco.cep }} </p>
                 {% endfor %}
+                {% else %}
+                <p>Endereço não disponível</p>
+                {% endif %}
+                <h1>Email</h1>
+                {% if trx.frequent_flyer_number.emails %}
+                {% for email in trx.frequent_flyer_number.emails.all %}
+                <p>Email: {{ email.email }} </p>
+                {% endfor %}
+                {% else %}
+                <p>Email não disponível</p>
+                {% endif %}
+                <h1>Telefone</h1>
+                {% if trx.frequent_flyer_number.telefones %}
+                {% for telefone in trx.frequent_flyer_number.telefones.all %}
+                <p>Telefone : {{ telefone.ddd }}{{telefone.telefone}} </p>
+                {% endfor %}
+                {% else %}
+                <p>Email não disponível</p>
+                {% endif %}
             </div>
-            
         </div>
         {% endfor %}
-
         {% block content %}
         <div name="paginacao">
             <nav aria-label="Navegação de página">
@@ -110,12 +119,10 @@
             </nav>
         </div>
         {% endblock %}
-
-       
         </div>
     </main>
     <footer>
-        
+
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -133,10 +140,6 @@
                 $("#details-" + trxId).toggle();  // Alternar a visibilidade dos detalhes
             });
         });
-    </script>
-
-
-
+</script>
 </body>
-
 </html>
